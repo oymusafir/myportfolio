@@ -1,38 +1,47 @@
+import wuphubPic from '../../assets/images/wuphub.svg'
+import facebookBlasterPic from "../../assets/images/facebook-blaster.webp"
+import instagramBlasterPic from "../../assets/images/instagram-blaster.webp"
+import linkedinBlasterPic from "../../assets/images/linkedin-blaster.webp"
+import twitterBlasterPic from "../../assets/images/twitter-blaster.webp"
+import tiktokBlasterPic from "../../assets/images/tiktok-blaster.webp"
+import whatsappBlasterPic from "../../assets/images/blaster-pro-booster.webp"
+
+
 export default function ProjectsPage() {
   const projects = [
     {
       name: "WupHub",
       description:
         "A complete cloud-based WhatsApp marketing and automation platform. Manage campaigns, send bulk messages, schedule content, and track engagement — all from one powerful dashboard.",
-      image: "/images/wuphub.svg",
+      image: wuphubPic,
       demoLink: "https://wuphub.com/"
     },
     {
       name: "Facebook Blaster Pro",
       description:
         "Automates Facebook marketing tasks including posting, group engagement, and account growth — designed to save hours of manual work.",
-      image: "/images/facebook-blaster.webp",
+      image: facebookBlasterPic,
       demoLink: "https://youtu.be/wuu0pYpGczQ?si=voVsvenmJgf7xKyZ"
     },
     {
       name: "Instagram Blaster Pro",
       description:
         "Boost your Instagram presence with automated posting, DM campaigns, follower engagement, and growth tools.",
-      image: "/images/instagram-blaster.webp",
+      image: instagramBlasterPic,
       demoLink: "https://youtu.be/T4UXdNGQ1Bg?si=dy8BGuN2T3SaIMOr"
     },
     {
       name: "LinkedIn Blaster Pro",
       description:
         "Automates LinkedIn outreach, connection requests, and messaging — perfect for lead generation and professional networking.",
-      image: "/images/linkedin-blaster.webp",
+      image: linkedinBlasterPic,
       demoLink: "https://youtu.be/lWL1l3_AENM?si=sHGe8hT6mnY7sABf"
     },
     {
       name: "Twitter Blaster Pro",
       description:
         "Automates Twitter engagement, scheduled tweets, and follower interaction to help grow your presence effortlessly.",
-      image: "/images/twitter-blaster.webp",
+      image: twitterBlasterPic,
       demoLink: "https://youtu.be/8o79g-QrAOI?si=JqyJGDOd50BFIy4G"
     },
 
@@ -40,14 +49,14 @@ export default function ProjectsPage() {
       name: "TikTok Blaster Pro",
       description:
         "Automates TikTok account management including posting, engagement, and audience growth strategies.",
-      image: "/images/tiktok-blaster.webp",
+      image: tiktokBlasterPic,
       demoLink: "https://youtu.be/UuFWAmixuJs?si=eOIpKP1WY-QADrr5"
     },
     {
       name: "WhatsApp Account Warmer",
       description:
         "A specialized tool to warm up WhatsApp accounts safely before bulk marketing campaigns — reducing the risk of bans and improving deliverability.",
-      image: "/images/blaster-pro-booster.webp",
+      image: whatsappBlasterPic,
       demoLink: "#"
     }
   ];

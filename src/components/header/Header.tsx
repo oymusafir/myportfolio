@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Github, Linkedin, Menu, X } from "lucide-react"; // install with: npm install lucide-react
+import { Github, Linkedin, Menu, X } from "lucide-react";
+import profilePic from '../../assets/profile.png'
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ export default function Header() {
                 {/* Left Section: Logo + Name */}
                 <Link to={"/"}>
                     <div className="flex items-center gap-2">
-                        <img src="/profile.png" className="h-8 w-8 rounded-full" alt="Logo" />
+                        <img src={profilePic} className="h-8 w-8 rounded-full" alt="Logo" />
                         <div className="font-bold text-lg">Muhammad Adnan</div>
                     </div>
                 </Link>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import TypeWriter from "./components/TypeWriter";
 import { Github, Linkedin } from "lucide-react";
+import profilePic from "../../assets/profile.png"
 
 export default function HomePage() {
     return (
@@ -13,7 +14,7 @@ export default function HomePage() {
                         <Link to={"/"}>
                             <div className="absolute inset-0 bg-blue-400 rounded-full blur-3xl opacity-30 transition"></div>
                             <img
-                                src="/profile.png"
+                                src={profilePic}
                                 alt="Muhammad Adnan"
                                 className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full border-4 border-white shadow-2xl transition-transform hover:scale-105 hover:rotate-1"
                             />
