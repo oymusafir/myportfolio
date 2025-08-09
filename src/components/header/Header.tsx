@@ -38,10 +38,10 @@ export default function Header() {
 
                 {/* Right Section */}
                 <div className="hidden md:flex gap-4">
-                    <a href="https://www.linkedin.com/in/oymusafir/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
+                    <a href="https://www.linkedin.com/in/oymusafir/" title="Visit my LinkedIn profile" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
                         <Linkedin size={22} />
                     </a>
-                    <a href="https://github.com/oymusafir" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
+                    <a href="https://github.com/oymusafir" title="Visit my GitHub" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700">
                         <Github size={22} />
                     </a>
                 </div>

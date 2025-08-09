@@ -1,4 +1,4 @@
-import { Github, Laptop, Linkedin, Mail } from "lucide-react";
+import { Github, Laptop, Linkedin, Mail, MessageCircleDashedIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -11,17 +11,21 @@ export default function Footer() {
                     </h2>
                 </Link>
                 <div className="flex gap-4">
-                    <a href="mailto:oymusafir@gmail.com" className="hover:text-gray-700">
+                    <a href="https://wa.me/923424590618" title="Chat with me on WhatsApp" target="_blank" rel="noreferrer" className="hover:text-gray-700">
+                        <MessageCircleDashedIcon size={24} />
+                    </a>
+                    <a href="mailto:oymusafir@gmail.com" title="Send me an email" className="hover:text-gray-700">
                         <Mail size={24} />
                     </a>
-                    <a href="https://linkedin.com/in/oymusafir" target="_blank" rel="noreferrer" className="hover:text-gray-700">
+                    <a href="https://linkedin.com/in/oymusafir" target="_blank" title="Visit my LinkedIn profile" rel="noreferrer" className="hover:text-gray-700">
                         <Linkedin size={24} />
                     </a>
-                    <a href="https://github.com/oymusafir" target="_blank" rel="noreferrer" className="hover:text-gray-700">
+                    <a href="https://github.com/oymusafir" target="_blank" title="Visit my GitHub" rel="noreferrer" className="hover:text-gray-700">
                         <Github size={24} />
                     </a>
+
                 </div>
             </div>
-        </footer>
+        </footer >
     );
 }

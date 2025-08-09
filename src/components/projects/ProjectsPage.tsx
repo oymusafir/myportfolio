@@ -57,7 +57,7 @@ export default function ProjectsPage() {
       description:
         "A specialized tool to warm up WhatsApp accounts safely before bulk marketing campaigns — reducing the risk of bans and improving deliverability.",
       image: whatsappBlasterPic,
-      demoLink: "#"
+      demoLink: "https://wa.me/923424590618"
     }
   ];
 
