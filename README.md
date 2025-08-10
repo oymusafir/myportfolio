@@ -1,69 +1,67 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# <img src="./public/favicon.svg" width="28" /> Muhammad Adnan – Developer Portfolio
 
-Currently, two official plugins are available:
+Hey 👋 I’m **Muhammad Adnan**. A **full-stack developer** passionate about building **clean**, **fast**, and **user-friendly** digital experiences.
+This is my personal portfolio showcasing my **work**, **skills**, and **ways to connect** with me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* ⚡ **Ultra-fast** development & build with [Vite](https://vitejs.dev/)
+* 📱 **Responsive** design for mobile, tablet, and desktop
+* 🔍 **SEO-ready** with meta tags, sitemap & robots.txt
+* 🎨 **Minimal & modern UI** powered by Tailwind CSS
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠 Tech Stack
+
+**Core:** React · Vite · Tailwind CSS · React Router
+**UI & Icons:** Lucide Icons
+
+---
+
+## 🚀 Quick Start
+
+Clone the repository:
+
+```bash
+git clone https://github.com/oymusafir/myportfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate into the folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd myportfolio
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Contact Me
+
+If you’re interested in working together or just want to connect:
+
+* **Website**: [muhammadadnan.dev](https://muhammadadnan.dev)
+* **Email**: [oymusafir@email.com](mailto:oymusafir@email.com)
+* **LinkedIn**: [linkedin.com/in/oymusafir](https://linkedin.com/in/oymusafir)
+* **GitHub**: [github.com/oymusafir](https://github.com/oymusafir)
+* **WhatsApp**: [wa.me/923424590618](https://wa.me/923424590618) 
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — feel free to fork and customize.
+
