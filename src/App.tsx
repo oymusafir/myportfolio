@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ParticleBackground from "./components/background/ParticleBackground";
 import Header from "./components/header/Header";
-import HomePage from "./components/home/HomePage";
 import Footer from "./components/footer/Footer";
-import AboutPage from "./components/about/AboutPage";
-import ProjectsPage from "./components/projects/ProjectsPage";
 import ErrorPage from "./components/error/ErrorPage";
+import HomePage from "./pages/home/HomePage";
+import AboutPage from "./pages/about/AboutPage";
+import ProjectsPage from "./pages/projects/ProjectsPage";
 
 function App() {
   return (
