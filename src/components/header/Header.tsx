@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Menu, X } from "lucide-react";
-import profilePic from '../../assets/profile.png'
+import profilePic from '../../assets/profile.webp'
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);

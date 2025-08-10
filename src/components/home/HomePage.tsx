@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import TypeWriter from "./components/TypeWriter";
 import { Github, Linkedin } from "lucide-react";
-import profilePic from "../../assets/profile.png"
+import profilePic from "../../assets/profile.webp"
 
 export default function HomePage() {
     return (
